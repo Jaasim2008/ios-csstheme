@@ -1,0 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {font-family: 'SF Pro Display', sans-serif; font-size: 2vw;}
+
+/*Modal*/
+.iosui-modal {border-radius: 20px; background-color: white; width: 30vw; height: 10vh; min-width: 10rem; min-height: 7rem;}
+.iosui-modal > hr.iosui-modal-hr {height: 2px; background-color: gray; border: none; margin: 0; margin-left: .5rem !important; margin-right: .5rem !important;}
+.iosui-modal-header {text-align: center;}
+.iosui-modal-header > span.iosui-modal-header-close {display: inline-block; color:white; float: right; margin: auto; margin-right: 1rem !important; margin-top: .15rem !important; width: .75rem; height: .75rem; background-color: rgb(255, 72, 72); border-radius: 50%; font-size: 1.25vw;}
+@media only screen and (max-width: 600px) {.iosui-modal-header > span.iosui-modal-header-close {font-size: 1vw}}
+.iosui-modal-header > span.iosui-modal-header-close:hover { width: 100%; cursor: pointer; text-align: center;}
+.iosui-modal-body {font-size: 1.25vw; text-align: center;}
